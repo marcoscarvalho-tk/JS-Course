@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso PHP</title>    
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>   
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body>
+    <div class ="container">
+     <header>
+        <h1>Curso JS</h1>
+
+    </header>
+    <section>
+        <p><strong>EVENTOS DE FORMULÁRIO</strong><br/></p>
+        <h1><strong></strong></h1>
+        <form method="POST" class="form-group" onsubmit="return false">
+            <input type="text" class="form-control" onfocus="focar()" onblur="desfocou()">
+            <select name="cidade" class="form-control" 
+                onchange="mudouOpcao(this)">
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Belo Horizonte</option>
+                <option>Recife</option>
+            </select>
+            <input type="submit" value="Enviar" class="btn btn-primary m-2">
+        </form>
+    </section>       
+    <footer>
+        <p>&copy;</p>
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo de exercício</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    
+    <div id="section">
+        <div id="block">
+           <header>
+            <h1>CALCULADORA DE ANOS BISSEXTOS</h1>
+           </header>
+            <p>Calcule aqui o ano desejado</p>
+            <div><p>Dia:
+                <select class="inpt" id="dd">
+                 
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select></p>
+            </div>
+            
+        <div><p>Mês: 
+            <select class="inpt" id="mm">
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+            </select></p>
+        </div>
+            <p>Ano: <input type="number" class="inpt" placeholder="  Digite o ano" id="yyyy"></p>
+             
+            <label class="container">d.C
+                <input type="radio" id="dc" checked="checked" name="radio">
+                <span class="checkmark"></span>
+            </label>
+                <label class="container">a.C
+                <input type="radio" id="ac" name="radio">
+                <span class="checkmark"></span>
+            </label>
+            <p><input type="button" class="bt" value="CALCULAR"id="calcular" onclick="calc()"></p>
+            <p id="res">Saiba o dia da semana da data desejada e se o ano é bissexto. Mais informações
+                <a href="https://pt.wikipedia.org/wiki/Ano_bissexto">clique aqui. </a>
+            </p>
+          
+       
+           
+        </div>
+       
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
